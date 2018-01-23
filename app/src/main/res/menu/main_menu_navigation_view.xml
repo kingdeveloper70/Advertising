@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/icon_group_0"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_main_menu_navigation_view"
+            android:icon="@drawable/ic_home_main_menu_navigation_view"
+            android:title="خانه" />
+
+        <item
+            android:id="@+id/list_main_menu_navigation_advertising"
+            android:icon="@drawable/ic_list_main_menu_navigation_advertising"
+            android:title="لیست دسته بندی آگهی نما" />
+    </group>
+
+    <group
+        android:id="@+id/icon_group_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/shopping_cart_main_menu_navigation_view"
+            android:icon="@drawable/ic_shopping_cart_main_menu_navigation_view"
+            android:title="سبد خرید"
+            app:actionViewClass="android.widget.TextView" />
+        <item
+            android:id="@+id/favorite_main_menu_navigation_view"
+            android:icon="@drawable/ic_favorite_main_menu_navigation_view"
+            android:title="لیست مورد علاقه" />
+        <item
+            android:id="@+id/email_main_menu_navigation_view"
+            android:icon="@drawable/ic_email_main_menu_navigation_view"
+            android:title="‍‍‍ پیام ها" />
+        <item
+            android:id="@+id/assignment_main_menu_navigation_view"
+            android:icon="@drawable/ic_assignment_main_menu_navigation_view"
+            android:title="سوابق سفارش" />
+        <item
+            android:id="@+id/credit_card_main_menu_navigation_view"
+            android:icon="@drawable/ic_credit_card_main_menu_navigation_view"
+            android:title="شماره کارت بانکی" />
+    </group>
+
+    <group
+        android:id="@+id/icon_group_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/special_offer_digikala_main_menu_navigation_advertising"
+            android:title="پیشنهاد ویژه آگهی نما" />
+        <item
+            android:id="@+id/best_sellers_main_menu_navigation_view"
+            android:title="پرفروش ترین ها" />
+        <item
+            android:id="@+id/most_viewed_main_menu_navigation_view"
+            android:title="پر بازدیدترین ها" />
+        <item
+            android:id="@+id/newest_main_menu_navigation_view"
+            android:title="جدیدترین ها" />
+    </group>
+    <group
+        android:id="@+id/icon_group_3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Settings_main_menu_navigation_view"
+            android:title="تنظیمات" />
+        <item
+            android:id="@+id/frequently_asked_questions_main_menu_navigation_view"
+            android:title="سوالات متداول" />
+        <item
+            android:id="@+id/about_us_main_menu_navigation_view"
+            android:title="درباره ما" />
+    </group>
+</menu>

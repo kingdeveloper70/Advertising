@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_header_navigation_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_header" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/marginRight_Logo_Profile"
+        android:layout_marginTop="@dimen/marginTop_Logo_Profile"
+        android:src="@drawable/logo_profile" />
+
+    <TextView
+        android:id="@+id/text_main_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/image_header_navigation_header"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/marginBottom_Text_Main_Register"
+        android:layout_marginLeft="@dimen/marginLeft_Text_Main_Register"
+        android:text="ورود/ثبت نام"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_main_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/text_main_register"
+        android:layout_alignTop="@id/text_main_register"
+        android:layout_toRightOf="@id/text_main_register"
+        android:src="@drawable/image_layout_header_lock" />
+
+    <TextView
+        android:id="@+id/text_main_register_name_family"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_main_register"
+        android:layout_alignLeft="@+id/text_main_register"
+        android:layout_marginBottom="18dp"
+        android:text="نام ونام خانوادگی"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

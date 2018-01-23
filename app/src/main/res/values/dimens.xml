@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginRight_Logo_Profile">32dp</dimen>
+    <dimen name="marginTop_Logo_Profile">16dp</dimen>
+    <dimen name="marginBottom_Text_Main_Register">16dp</dimen>
+    <dimen name="marginLeft_Text_Main_Register">16dp</dimen>
+    <dimen name="marginBottom_text_main_register_name_family">16dp</dimen>
+    <dimen name="mamarginLeft_text_main_register_name_family">16dp</dimen>
+</resources>
