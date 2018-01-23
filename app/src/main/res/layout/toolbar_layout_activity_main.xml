@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_gravity="right"
-                android:src="@drawable/advertising" />
+                android:src="@drawable/azetrom" />
         </RelativeLayout>
 
     </android.support.v7.widget.Toolbar>
