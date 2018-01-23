@@ -54,14 +54,7 @@ public class MainActivity extends AppCompatActivity {
         initializeCountDrawer();
         navigationView();
         drawerView();
-        Test();
         navigationHeaderView();
-    }
-
-    private void Test() {
-        int i = 1 + 1;
-        int ii = 2 + 2;
-        int iii = i + ii;
     }
 
     private void navigationHeaderView() {
