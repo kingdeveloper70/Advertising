@@ -1,0 +1,52 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision )
++++ .idea/vcs.xml	(revision )
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/main/java/com/example/android/advertising/TestAddFile.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/android/advertising/TestAddFile.java	(revision )
++++ app/src/main/java/com/example/android/advertising/TestAddFile.java	(revision )
+@@ -0,0 +1,8 @@
++package com.example.android.advertising;
++
++/**
++ * Created by Android on 23/01/2018.
++ */
++
++public class TestAddFile {
++}
+Index: app/src/main/java/com/example/android/advertising/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/android/advertising/MainActivity.java	(revision fc0f88141b7eb65c04d3508abb676b9723db5f56)
++++ app/src/main/java/com/example/android/advertising/MainActivity.java	(revision )
+@@ -54,9 +54,13 @@
+         initializeCountDrawer();
+         navigationView();
+         drawerView();
++        Test();
+         navigationHeaderView();
+     }
+ 
++    private void Test() {
++    }
++
+     private void navigationHeaderView() {
+         textViewMainRegister.setOnClickListener(new View.OnClickListener() {
+             @Override
