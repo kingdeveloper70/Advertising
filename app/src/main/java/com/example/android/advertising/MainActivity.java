@@ -54,7 +54,11 @@ public class MainActivity extends AppCompatActivity {
         initializeCountDrawer();
         navigationView();
         drawerView();
+        Test();
         navigationHeaderView();
+    }
+
+    private void Test() {
     }
 
     private void navigationHeaderView() {
